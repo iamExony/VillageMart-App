@@ -33,7 +33,7 @@ export default function Navbar() {
             </div>
 
             {isOpen && (
-                <div className="md:hidden bg-white px-4 py-2 space-y-2 shadow-md">
+                <div className="absolute top-[58px] right-0 md:hidden bg-white px-4 py-2 space-y-2 shadow-md">
                     {['Home', 'Services', 'Pages', 'About us'].map((item, idx) => (
                         <a
                             key={idx}

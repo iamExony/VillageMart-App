@@ -57,17 +57,17 @@ export default function HeroSection() {
 
       {/* Text Content */}
       <div className="relative z-20 flex flex-col font-signika items-center justify-center h-full text-white text-center px-4">
-        <h1 className="text-xl md:text-[94px] font-bold md:pt-20">{slides[current].text}</h1>
+        <h1 className="text-4xl md:text-[94px] font-bold md:pt-20">{slides[current].text}</h1>
         <p className="text-xl md:text-[70px] mb-6 flex items-center gap-8">
           <div className='flex items-center'>
-            <span className="mx-1">
-              <FaCircle size={20} />
+            <span className="mx-1 text-4xl">
+              <FaCircle className='text-sm'/>
             </span>
             <span>{slides[current].desc1}</span>
           </div>
           <div className='flex items-center'>
             <span className="mx-1">
-              <FaCircle size={20} />
+              <FaCircle className='text-sm' />
             </span>
             <span>{slides[current].desc2}</span>
           </div>
